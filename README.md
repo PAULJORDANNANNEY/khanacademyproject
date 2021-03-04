@@ -1,2 +1,207 @@
 # khanacademyproject
 Basically, here is the link to it on khan academy https://www.khanacademy.org/computer-programming/b/5981747228524544
+
+var x = 260;
+// , b, shld b cmplt wbpg
+var drawWbpg = function() {
+//, b, blSk, b, Bckgrnd nd clds
+draw = function() {
+//, b, bl sk, b, 
+background(5, 218, 255);
+
+//, b, cld n
+stroke(255, 255, 255);
+fill(255, 255, 255);
+ellipse(x % 400, 50, 100, 50);
+
+//, b, cld tw
+stroke(255, 255, 255);
+fill(255, 255, 255);
+ellipse(x-120 % 400, 85, 80, 40);
+
+//, b, cld thr
+stroke(255, 255, 255);
+fill(255, 255, 255);
+ellipse(x+115 % 400, 85, 80, 40);
+
+//, b, cld fr
+stroke(255, 255, 255);
+fill(255, 255, 255);
+ellipse(x-235 % 400, 50, 100, 50);
+
+//, b, grnBckgrnd nd dctr
+
+//, b, grnBckgrnd
+stroke(0, 255, 0);
+fill(0, 255, 0);
+line(-10, 300, 410, 300);
+rect(-10, 300, 410, 410);
+
+// , b, nck
+stroke(240, 235, 240);
+fill(240, 235, 240);
+rect(169, 205, 80.5, 130);
+
+//, b, prsn
+//, b, bdy , b, my trn ths nt , b, dctr, b, 
+stroke(255, 255, 255);
+fill(255, 255, 255);
+rect(100, 270, 210, 300);
+stroke(224, 224, 224);
+fill(255, 255, 2);
+line(150, 550, 150, 310);
+line(260, 550, 260, 310);
+line(183, 270, 250, 310);
+line(250, 310, 250, 450);
+stroke(224, 224, 224);
+noFill();
+ellipse(240, 330, 5, 10);
+ellipse(240, 350, 5, 10);
+
+// , b, shldrs
+fill(5, 218, 255);
+stroke(5, 218, 255);
+rect(100, 250, 40, 50);
+rect(275, 250, 40, 50);
+fill(255, 255, 255);
+stroke(255, 255, 255);
+ellipse(133, 301, 65, 62);
+ellipse(278, 303, 66, 65);
+
+// , b, 
+ellipse(155, 297.9, 65, 62);
+ellipse(261, 300, 66, 65);
+
+//, b, t
+stroke(255, 0, 0);
+fill(255, 0, 0);
+ellipse(210, 270, 25, 25);
+triangle(200, 280, 234.5, 300, 200, 250);
+
+//, hd 
+stroke(240, 235, 240);
+fill(240, 235, 240);
+ellipse(210, 205, 105, 130); 
+ellipse(210, 210, 80, 130); 
+stroke(5, 218, 255);
+fill(5, 218, 255);
+rect(70, 150, 90, 80);
+rect(257, 156, 65, 80);
+stroke(240, 235, 240);
+fill(240, 235, 240);
+ellipse(168, 205, 25, 35);
+ellipse(249.9, 205, 25, 35);
+//, b, mth
+stroke(224, 224, 224);
+fill(224, 224, 224);
+line(190, 240, 230, 240);
+rect(190, 225, 40, 18.5);
+stroke(240, 235, 240);
+fill(240, 235, 240);
+rect(190, 220, 40, 18.5);
+stroke(224, 224, 224);
+noFill();
+ellipse(210, 208, 33, 30);
+stroke(240, 235, 240);
+fill(240, 235, 240);
+rect(190, 200, 40, 18.5);
+rect(200, 178, 40, 18.5);
+
+//, b, nm bdg
+noFill();
+rect(161, 300, 35, 25);
+
+//, b, sngsss
+stroke(0, 0, 0);
+fill(0, 0, 0);
+rect(180, 180, 25, 17);
+rect(200, 180, 15, 5);
+rect(200, 187, 15, 5);
+rect(215, 180, 25, 17);
+rect(160, 185, 25, 5);
+rect(231, 185, 25, 5);
+stroke(0, 0, 0);
+fill(0, 0, 0);
+ellipse(193, 197, 25, 25);
+ellipse(228, 197, 25, 25);
+stroke(255, 255, 255);
+fill(255, 255, 255);
+ellipse(235, 191, 3, 3);
+stroke(240, 235, 240);
+fill(240, 235, 240);
+ellipse(210.5, 209, 16, 16); 
+
+//, b, hr , b, hpflly trn ths nt n ld mn, b, s cmbvr my wth smll sdbrns
+stroke(255, 255, 255);
+fill(255, 255, 255);
+ellipse(192, 162, 34, 34);
+ellipse(180, 167, 25, 25);
+ellipse(198, 160, 34, 34);
+ellipse(174, 175, 15, 15);
+ellipse(180, 170, 20, 20);
+ellipse(171, 175, 20, 20);
+ellipse(220, 151, 20, 20);
+ellipse(247, 166, 10, 10);
+ellipse(249, 170, 10, 10);
+ellipse(250, 174, 10, 10);
+ellipse(252, 180, 10, 10);
+ellipse(165, 180, 10, 10);
+ellipse(205, 158, 34, 34);
+ellipse(212, 151, 20, 20);
+ellipse(199, 155, 25, 25);
+ellipse(222, 155, 25, 25);
+ellipse(199, 156, 25, 25);
+ellipse(220, 156, 25, 25);
+ellipse(183, 158, 15, 15);
+ellipse(238, 158, 15, 15);
+ellipse(190, 152, 15, 15);
+ellipse(230, 152, 15, 15);
+ellipse(180, 160, 15, 15);
+
+//, b, clck n br
+stroke(255, 0, 0);
+fill(255, 0, 0);
+line(-10, 350, 410, 350);
+rect(-10, 350, 410, 410);
+stroke(0, 0, 0);
+rect(110, 354, 180, 42);
+var f = createFont("serif");
+textFont(f);
+stroke(0, 0, 0);
+fill(0, 0, 0);
+textSize(27);
+text(", b, One Doctor", 115, 360, 250, 250);
+
+//, b, ttl
+var f = createFont("serif");
+textFont(f);
+stroke(0, 0, 0);
+fill(0, 0, 0);
+textSize(40);
+text(", b, Health", 120, 72, 300, 300);
+
+//, b, clck n br
+stroke(255, 0, 0);
+fill(255, 0, 0);
+line(-10, 350, 410, 350);
+rect(-10, 350, 410, 410);
+stroke(0, 0, 0);
+rect(110, 354, 180, 42);
+var f = createFont("serif");
+textFont(f);
+stroke(0, 0, 0);
+fill(0, 0, 0);
+textSize(27);
+text(", b, One Doctor", 115, 360, 250, 250);
+
+//, b, ttl
+var f = createFont("serif");
+textFont(f);
+stroke(0, 0, 0);
+fill(0, 0, 0);
+textSize(40);
+text(", b, Health", 120, 72, 300, 300);
+x -= 1;
+};
+};
+drawWbpg();
